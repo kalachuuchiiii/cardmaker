@@ -9,7 +9,7 @@ const AboutSection = () => {
 
         <p className="text-base leading-relaxed">
           This project is a practice ground for mastering data-fetching in React apps using 
-          <span className="font-semibold text-white"> useQuery</span>, and 
+          <span className="font-semibold text-white"> useQuery</span>, <span className="font-semibold text-white">useMutation</span>, and 
           <span className="font-semibold text-white"> useInfiniteQuery</span>. As well as implementing <span  className="font-semibold text-white">Single Responsibility</span> and <span className="font-semibold text-white">DRY Principle</span>.
           It's a step toward building scalable, real-world applications.
         </p>
