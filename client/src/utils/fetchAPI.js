@@ -17,8 +17,10 @@ const fetchApi = async({method = "get", route, payload}) => {
     }
     
      const res = await axios[method](apiUrl, {...payload});
+     console.log(route, res.data);
     return res.data;
   }catch(e){
+    console.log(e);
     throw e;
   }
 }
